@@ -1,0 +1,1048 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 2px 2px 10px;
+    height: 60px;
+    background: #bddcf7;
+    position: sticky;
+    width: 100%;
+}
+
+nav h1 {
+    padding: 10px;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+nav .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.navigation ul  li a:hover{
+	color: red;
+	transition: 0.3s;
+}
+.navigation ul li {
+    list-style: none;
+    margin-left: 15px;
+}
+
+section#Home {
+    height: 95vh;
+	background-image: url(try1.jpg);
+	
+}
+
+section#Home h1 {
+    text-align: center;
+    padding-top: 130px;
+    color: #00ffc6;
+    font-size: 50px;
+    font-family: fangsong;
+}
+
+section#Home h2 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(2, 2, 250);
+    font-family: inherit;
+    padding-bottom: 30px;
+    padding-top: 5px;
+}
+
+section#Home p {
+    font-size: 22px;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(11, 11, 11);
+}
+button {
+    font-size: 18px;
+    color: darkblue;
+    font-family: fangsong;
+    background-color: wheat;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 44%;
+    top: 20px;
+    padding: 5px;
+}
+
+button:hover{
+	background-color:darkblue;
+	color: white;
+	transition: 0.3s;
+}
+
+.next{
+	height: 160vh;
+	background-color:rgb(0,23,47);
+
+}
+
+.next h1{
+	text-align: center;
+	font-size: 40px;
+	color:white;
+	padding-top: 40px;
+	padding-bottom: 10px; 
+
+}
+
+.next h3{
+	text-align: center;
+	font-size: 20px;
+	color: #4da0f5;
+	padding-bottom: 30px;
+	 
+}
+
+.php{
+	width: 93vw;
+	background-color: pink;
+	border-radius: 5px;
+	position: relative;
+	left: 40px;
+
+}
+.php h1{
+	padding-top: 15px;
+	text-align: center; 
+	color: black;
+
+}
+.php h3{
+	padding-top: 2px;
+	text-align: center;
+	padding-bottom: 50px;
+	color: #cb1111;
+
+}
+
+.lphp{
+	border:solid black;
+	border-radius: 10px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	width: 100px;
+	height: 18px;
+	padding: 5px;
+	position: relative;
+	left: 45%;
+	top: -20px;
+	font-family: sans-serif;
+
+}
+
+.lphp:hover{
+	background-color: pink;
+	transition: 0.3s;
+	color: black;
+	cursor: pointer;
+
+}
+
+
+/*python*/
+
+.python{
+	width: 93vw;
+	background-color: #cfcf89;
+	border-radius: 5px;
+	position: relative;
+	left: 40px;
+	top: 20px;
+
+}
+.python h1{
+	padding-top: 15px;
+	text-align: center; 
+	color: black;
+
+}
+.python h3{
+	padding-top: 2px;
+	text-align: center;
+	padding-bottom: 50px;
+	color: #626622;
+
+}
+
+.lpython{
+	border:solid black;
+	border-radius: 10px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	width: 150px;
+	height: 18px;
+	padding: 5px;
+	position: relative;
+	left: 43%;
+	top: -20px;
+	font-family: sans-serif;
+
+}
+
+.lpython:hover{
+	background-color:#cfcf89 ;
+	transition: 0.3s;
+	color: black;
+	cursor: pointer;
+
+}
+
+/*css*/
+
+.css{
+	width: 93vw;
+	background-color: skyblue;
+	border-radius: 5px;
+	position: relative;
+	left: 40px;
+	top: 40px;
+
+}
+.css h1{
+	padding-top: 15px;
+	text-align: center; 
+	color: black;
+
+}
+.css h3{
+	padding-top: 2px;
+	text-align: center;
+	padding-bottom: 50px;
+	color: #195262;
+
+}
+
+.lcss{
+	border:solid black;
+	border-radius: 10px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	width: 110px;
+	height: 18px;
+	padding: 5px;
+	position: relative;
+	left: 45%;
+	top: -20px;
+	font-family: sans-serif;
+
+}
+
+.lcss:hover{
+	background-color:skyblue ;
+	transition: 0.3s;
+	color: black;
+	cursor: pointer;
+
+}
+
+/*java*/
+
+.java{
+	width: 93vw;
+	background-color: slategrey;
+	border-radius: 5px;
+	position: relative;
+	left: 40px;
+	top: 60px;
+
+}
+.java h1{
+	padding-top: 15px;
+	text-align: center; 
+	color: black;
+
+}
+.java h3{
+	padding-top: 2px;
+	text-align: center;
+	padding-bottom: 50px;
+	color: #1a1919;
+
+}
+
+.ljava{
+	border:solid black;
+	border-radius: 10px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	width: 110px;
+	height: 18px;
+	padding: 5px;
+	position: relative;
+	left: 45%;
+	top: -20px;
+	font-family: sans-serif;
+
+}
+
+.ljava:hover{
+	background-color: #6e7f8d;
+	transition: 0.3s;
+	color: black;
+	cursor: pointer;
+
+}
+.footer1{
+	background-color: black;
+	color: white;
+	height: 100%;
+
+}
+.footer1 h1{
+	text-align: center;
+	font-size: 40px;
+	padding-top: 50px;
+
+}
+.footer1 h4{
+	text-align:center ;
+	margin-top: 30px;
+	padding: 70px;
+}
+
+
+
+
+
+
+
+  /*3D SHADOW-1 
+
+.try {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(219,218,218);
+    box-shadow: -5px -4px 5px 0px rgb(255 255 255 / 43%), 9px 7px 5px 0px rgb(143 118 118 / 43%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+*/
+
+
+
+/* 3D SHADOW-2
+
+.try {
+    height: 200px;
+    width: 200px;
+    background-color: #FAFBFF;
+    box-shadow: -20px -20px 40px -5px #fafbffcc, 20px 20px 40px -5px #161b1d66;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+*/
+@media only screen and (max-width:960px){
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 2px 2px 10px;
+    height: 60px;
+    background: #bddcf7;
+    position: sticky;
+    width: 100%;
+}
+
+
+nav h1 {
+    padding: 10px;
+    font-family: monospace;
+    font-size: 25px;
+	display: flex;
+	justify-content:center;
+}
+
+nav .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px;
+	
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    margin-left: 10px;
+	display: flex;
+	
+}
+
+.navigation ul  li a:hover{
+	color: red;
+	transition: 0.3s;
+}
+.navigation ul li {
+    list-style: none;
+    margin-left: 15px;
+	display: flex;
+	justify-content: start;
+}
+
+section#Home {
+    height: 95vh;
+	background-image: url(try1.jpg);
+	width: 100%;
+	
+}
+
+section#Home h1 {
+    display: flex;
+	justify-content: center;
+	
+    padding-top: 130px;
+    color: #00ffc6;
+    font-size: 50px;
+    font-family: fangsong;
+	
+}
+
+section#Home h2 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(2, 2, 250);
+    font-family: inherit;
+    padding-bottom: 30px;
+    padding-top: 5px;
+}
+
+section#Home p {
+    font-size: 22px;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(11, 11, 11);
+}
+button {
+    font-size: 18px;
+    color: darkblue;
+    font-family: fangsong;
+    background-color: wheat;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 44%;
+    top: 20px;
+    padding: 5px;
+}
+
+button:hover{
+	background-color:darkblue;
+	color: white;
+	transition: 0.3s;
+}
+
+.next{
+	height: 160vh;
+	background-color:rgb(0,23,47);
+	width: 100%;
+
+}
+
+.next h1{
+	text-align: center;
+	font-size: 40px;
+	color:white;
+	padding-top: 40px;
+	padding-bottom: 10px; 
+
+}
+
+.next h3{
+	text-align: center;
+	font-size: 20px;
+	color: #4da0f5;
+	padding-bottom: 30px;
+	 
+}
+
+.php{
+	width:88%;
+	background-color: pink;
+	border-radius: 5px;
+	position: relative;
+	left: 52px;
+
+}
+.php h1{
+	padding-top: 15px;
+	text-align: center; 
+	color: black;
+
+}
+.php h3{
+	padding-top: 2px;
+	text-align: center;
+	padding-bottom: 50px;
+	color: #cb1111;
+
+}
+
+.lphp{
+	border:solid black;
+	border-radius: 10px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	width: 100px;
+	height: 18px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: sans-serif;
+
+}
+
+.lphp:hover{
+	background-color: pink;
+	transition: 0.3s;
+	color: black;
+	cursor: pointer;
+
+}
+
+
+/*python*/
+
+.python{
+	width:88%;
+	background-color: #cfcf89;
+	border-radius: 5px;
+	position: relative;
+	left: 52px;
+	top: 20px;
+
+}
+.python h1{
+	padding-top: 15px;
+	text-align: center; 
+	color: black;
+
+}
+.python h3{
+	padding-top: 2px;
+	text-align: center;
+	padding-bottom: 50px;
+	color: #626622;
+
+}
+
+.lpython{
+	border:solid black;
+	border-radius: 10px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	width: 150px;
+	height: 18px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: sans-serif;
+
+}
+
+.lpython:hover{
+	background-color:#cfcf89 ;
+	transition: 0.3s;
+	color: black;
+	cursor: pointer;
+
+}
+
+/*css*/
+
+.css{
+	width:88%;
+	background-color: skyblue;
+	border-radius: 5px;
+	position: relative;
+	left: 52px;
+	top: 40px;
+
+}
+.css h1{
+	padding-top: 15px;
+	text-align: center; 
+	color: black;
+
+}
+.css h3{
+	padding-top: 2px;
+	text-align: center;
+	padding-bottom: 50px;
+	color: #195262;
+
+}
+
+.lcss{
+	border:solid black;
+	border-radius: 10px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	width: 110px;
+	height: 18px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: sans-serif;
+
+}
+
+.lcss:hover{
+	background-color:skyblue ;
+	transition: 0.3s;
+	color: black;
+	cursor: pointer;
+
+}
+
+/*java*/
+
+.java{
+	width:88%;
+	background-color: slategrey;
+	border-radius: 5px;
+	position: relative;
+	left: 52px;
+	top: 60px;
+
+}
+.java h1{
+	padding-top: 15px;
+	text-align: center; 
+	color: black;
+
+}
+.java h3{
+	padding-top: 2px;
+	text-align: center;
+	padding-bottom: 50px;
+	color: #1a1919;
+
+}
+
+.ljava{
+	border:solid black;
+	border-radius: 10px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	width: 110px;
+	height: 18px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: sans-serif;
+
+}
+
+.ljava:hover{
+	background-color: #6e7f8d;
+	transition: 0.3s;
+	color: black;
+	cursor: pointer;
+
+}
+
+.footer1{
+	background-color: black;
+	color: white;
+	height: 100%;
+	width: 100%;
+
+}
+.footer1 h1{
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	padding-top: 50px;
+    
+}
+.footer1 h4{
+	display: flex;
+	justify-content: center;
+	text-align:center ;
+	margin-top: 30px;
+	padding: 70px;
+}
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:600px){
+	nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		box-shadow: 2px 2px 10px;
+		height: 60px;
+		background: #bddcf7;
+		position: sticky;
+		width: 100%;
+	}
+	
+	
+	nav h1 {
+		padding: 10px;
+		font-family: monospace;
+		font-size: 20px;
+		display: flex;
+		justify-content:start;
+	}
+	
+	nav .navigation ul {
+		display: flex;
+		justify-content: flex-end;
+		margin: 15px;
+		
+	}
+	
+	.navigation ul li a {
+		text-decoration: none;
+		margin-left: 10px;
+		display: flex;
+		justify-content: center;
+		
+	}
+	
+	.navigation ul  li a:hover{
+		color: red;
+		transition: 0.3s;
+	}
+	.navigation ul li {
+		list-style: none;
+		margin-left: 15px;
+		display: flex;
+		justify-content: start;
+	}
+	section#Home{
+		height:80vh;
+		width: 100%;
+		background-image: url(try1.jpg);
+
+	}
+	
+	section#Home h1 {
+		display: flex;
+		justify-content: center;
+		padding-top: 90px;
+		color: #00ffc6;
+		font-size: 30px;
+		font-family: fangsong;
+		
+	}
+	
+	section#Home h2 {
+		text-align: center;
+		font-size: 20px;
+		color: rgb(2, 2, 250);
+		font-family: inherit;
+		padding-bottom: 30px;
+		padding-top: 5px;
+	}
+	
+	section#Home p {
+		font-size: 17px;
+		text-align: center;
+		font-family: cursive;
+		color: rgb(11, 11, 11);
+	}
+	button {
+		font-size: 18px;
+		color: darkblue;
+		font-family: fangsong;
+		background-color: wheat;
+		border: none;
+		border-radius: 5px;
+		position: relative;
+		align-items: center;
+		top: 20px;
+		padding: 5px;
+	}
+	
+	button:hover{
+		background-color:darkblue;
+		color: white;
+		transition: 0.3s;
+	}
+	
+	.next{
+		height: 50%;
+		background-color:rgb(0,23,47);
+		width: 100%;
+
+	
+	}
+	
+	.next h1{
+		text-align: center;
+		font-size: 25px;
+		color:white;
+		padding-top: 40px;
+		padding-bottom: 10px; 
+	
+	}
+	
+	.next h3{
+		text-align: center;
+		font-size: 17px;
+		color: #4da0f5;
+		padding-bottom: 30px;
+		 
+	}
+	
+	.php{
+		width:88%;
+		background-color: pink;
+		border-radius: 5px;
+		
+	
+	
+	}
+	.php h1{
+		padding-top: 15px;
+		text-align: center; 
+		color: black;
+	
+	}
+	.php h3{
+		padding-top: 2px;
+		text-align: center;
+		padding-bottom: 50px;
+		color: #cb1111;
+	
+	}
+	
+	.lphp{
+		border:solid black;
+		border-radius: 10px;
+		color: white;
+		background-color: black;
+		text-align: center;
+		width: 100px;
+		height: 18px;
+		padding: 5px;
+		position: relative;
+		left: 40%;
+		top: -20px;
+		font-family: sans-serif;
+	
+	}
+	
+	.lphp:hover{
+		background-color: pink;
+		transition: 0.3s;
+		color: black;
+		cursor: pointer;
+	
+	}
+	
+	
+	/*python*/
+	
+	.python{
+		width:88%;
+		background-color: #cfcf89;
+		border-radius: 5px;
+		position: relative;
+		align-items: center;
+		top: 50%
+	
+	}
+	.python h1{
+		padding-top: 15px;
+		text-align: center; 
+		color: black;
+	
+	}
+	.python h3{
+		padding-top: 2px;
+		text-align: center;
+		padding-bottom: 50px;
+		color: #626622;
+	
+	}
+	
+	.lpython{
+		border:solid black;
+		border-radius: 10px;
+		color: white;
+		background-color: black;
+		text-align: center;
+		width: 150px;
+		height: 18px;
+		padding: 5px;
+		position: relative;
+		left: 40%;
+		top: -20px;
+		font-family: sans-serif;
+	
+	}
+	
+	.lpython:hover{
+		background-color:#cfcf89 ;
+		transition: 0.3s;
+		color: black;
+		cursor: pointer;
+	
+	}
+	
+	/*css*/
+	
+	.css{
+		width:88%;
+		background-color: skyblue;
+		border-radius: 5px;
+		position: relative;
+		align-items: center;
+		top: 30%;
+	
+	}
+	.css h1{
+		padding-top: 15px;
+		text-align: center; 
+		color: black;
+	
+	}
+	.css h3{
+		padding-top: 2px;
+		text-align: center;
+		padding-bottom: 50px;
+		color: #195262;
+	
+	}
+	
+	.lcss{
+		border:solid black;
+		border-radius: 10px;
+		color: white;
+		background-color: black;
+		text-align: center;
+		width: 110px;
+		height: 18px;
+		padding: 5px;
+		position: relative;
+		left: 40%;
+		top: -20px;
+		font-family: sans-serif;
+	
+	}
+	
+	.lcss:hover{
+		background-color:skyblue ;
+		transition: 0.3s;
+		color: black;
+		cursor: pointer;
+	
+	}
+	
+	/*java*/
+	
+	.java{
+		width:88%;
+		background-color: slategrey;
+		border-radius: 5px;
+		position: relative;
+		align-items: center;
+		top: 10%;
+	
+	}
+	.java h1{
+		padding-top: 15px;
+		text-align: center; 
+		color: black;
+	
+	}
+	.java h3{
+		padding-top: 2px;
+		text-align: center;
+		padding-bottom: 50px;
+		color: #1a1919;
+	
+	}
+	
+	.ljava{
+		border:solid black;
+		border-radius: 10px;
+		color: white;
+		background-color: black;
+		text-align: center;
+		width: 110px;
+		height: 18px;
+		padding: 5px;
+		position: relative;
+		left: 40%;
+		top: -20px;
+		font-family: sans-serif;
+	
+	}
+	
+	.ljava:hover{
+		background-color: #6e7f8d;
+		transition: 0.3s;
+		color: black;
+		cursor: pointer;
+	
+	}
+	
+	.footer1{
+		padding-top: 60px ;
+		background-color: black;
+		color: white;
+		height: 80%;
+		width: 100%;
+	
+	}
+	.footer1 h1{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 30px;
+		padding-top: 80px;
+		
+	}
+	.footer1 h4{
+		display: flex;
+		justify-content: center;
+		text-align:center ;
+		margin-top: 30px;
+		
+	}
+	
+	}
+
+
+
