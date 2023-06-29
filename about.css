@@ -5,7 +5,7 @@
 
 section#about{
     background-image: url(team1try.jpg);
-    height: 70vh; 
+    height: 500px; 
     opacity: 0.7;
     border-bottom-left-radius: 5px;  
     border-bottom-right-radius: 5px; 
@@ -13,7 +13,7 @@ section#about{
 
 .next1{
     background-color: #b7b8b7;
-    height: 100vh;
+    height: 800px;
     color: black;
     padding-top: 80px;
     display: flex;
