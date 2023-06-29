@@ -40,7 +40,7 @@ nav .navigation ul {
 }
 
 section#Home {
-    height: 95vh;
+    height: 500px;
 	background-image: url(try1.jpg);
 	
 }
@@ -88,7 +88,7 @@ button:hover{
 }
 
 .next{
-	height: 160vh;
+	height: 1000px;
 	background-color:rgb(0,23,47);
 
 }
